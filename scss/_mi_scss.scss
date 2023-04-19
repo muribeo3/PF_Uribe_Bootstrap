@@ -1,0 +1,23 @@
+@media (max-width:768px) {
+    .logo {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+nav {
+    a {
+        text-shadow: 1px 1px 1px #000000;
+    }
+}
+
+.mainIndex {
+    background-image: url(../imgs/medellin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.card {
+    @extend .mainIndex;
+}
